@@ -20,6 +20,8 @@
 		A69AB2E72CBD81B400FBB803 /* APIProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69AB2E62CBD81B400FBB803 /* APIProvider.swift */; };
 		A69AB2EC2CBD846D00FBB803 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = A69AB2EB2CBD846D00FBB803 /* Moya */; };
 		A69AB2EE2CBD846D00FBB803 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = A69AB2ED2CBD846D00FBB803 /* SnapKit */; };
+		A69AB2F12CBDA34100FBB803 /* MockState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69AB2F02CBDA34100FBB803 /* MockState.swift */; };
+		A69AB2F52CBDA42000FBB803 /* recipesViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69AB2F42CBDA42000FBB803 /* recipesViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		A69AB2E12CBD7E5800FBB803 /* ProtocolDefinitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolDefinitions.swift; sourceTree = "<group>"; };
 		A69AB2E42CBD7EA100FBB803 /* ResponseBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseBody.swift; sourceTree = "<group>"; };
 		A69AB2E62CBD81B400FBB803 /* APIProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIProvider.swift; sourceTree = "<group>"; };
+		A69AB2F02CBDA34100FBB803 /* MockState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockState.swift; sourceTree = "<group>"; };
+		A69AB2F42CBDA42000FBB803 /* recipesViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recipesViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 		A69AB2BC2CB82AED00FBB803 /* fetchipesTests */ = {
 			isa = PBXGroup;
 			children = (
+				A69AB2F22CBDA3F900FBB803 /* ViewModelTests */,
+				A69AB2EF2CBDA33700FBB803 /* Mocks */,
 				A69AB2BD2CB82AED00FBB803 /* fetchipiesTests.swift */,
 			);
 			path = fetchipesTests;
@@ -183,6 +189,22 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A69AB2EF2CBDA33700FBB803 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				A69AB2F02CBDA34100FBB803 /* MockState.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		A69AB2F22CBDA3F900FBB803 /* ViewModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				A69AB2F42CBDA42000FBB803 /* recipesViewModelTests.swift */,
+			);
+			path = ViewModelTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,6 +331,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A69AB2BE2CB82AED00FBB803 /* fetchipiesTests.swift in Sources */,
+				A69AB2F52CBDA42000FBB803 /* recipesViewModelTests.swift in Sources */,
+				A69AB2F12CBDA34100FBB803 /* MockState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

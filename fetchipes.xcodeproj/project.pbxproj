@@ -9,12 +9,19 @@
 /* Begin PBXBuildFile section */
 		A69AB2A72CB82AE900FBB803 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69AB2A62CB82AE900FBB803 /* AppDelegate.swift */; };
 		A69AB2A92CB82AE900FBB803 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69AB2A82CB82AE900FBB803 /* SceneDelegate.swift */; };
-		A69AB2AB2CB82AE900FBB803 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69AB2AA2CB82AE900FBB803 /* ViewController.swift */; };
+		A69AB2AB2CB82AE900FBB803 /* RecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69AB2AA2CB82AE900FBB803 /* RecipesViewController.swift */; };
 		A69AB2B02CB82AED00FBB803 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A69AB2AF2CB82AED00FBB803 /* Assets.xcassets */; };
 		A69AB2B32CB82AED00FBB803 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A69AB2B12CB82AED00FBB803 /* LaunchScreen.storyboard */; };
 		A69AB2BE2CB82AED00FBB803 /* fetchipiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69AB2BD2CB82AED00FBB803 /* fetchipiesTests.swift */; };
 		A69AB2C82CB82AED00FBB803 /* fetchipiesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69AB2C72CB82AED00FBB803 /* fetchipiesUITests.swift */; };
 		A69AB2CA2CB82AED00FBB803 /* fetchipiesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69AB2C92CB82AED00FBB803 /* fetchipiesUITestsLaunchTests.swift */; };
+		A69AB2DA2CBD7CC700FBB803 /* RecipesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69AB2D92CBD7CC700FBB803 /* RecipesViewModel.swift */; };
+		A69AB2DF2CBD7DCA00FBB803 /* RecipeState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69AB2DE2CBD7DCA00FBB803 /* RecipeState.swift */; };
+		A69AB2E22CBD7E5800FBB803 /* ProtocolDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69AB2E12CBD7E5800FBB803 /* ProtocolDefinitions.swift */; };
+		A69AB2E52CBD7EA100FBB803 /* ResponseBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69AB2E42CBD7EA100FBB803 /* ResponseBody.swift */; };
+		A69AB2E72CBD81B400FBB803 /* APIProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69AB2E62CBD81B400FBB803 /* APIProvider.swift */; };
+		A69AB2EC2CBD846D00FBB803 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = A69AB2EB2CBD846D00FBB803 /* Moya */; };
+		A69AB2EE2CBD846D00FBB803 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = A69AB2ED2CBD846D00FBB803 /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +45,7 @@
 		A69AB2A32CB82AE900FBB803 /* fetchipies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fetchipies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A69AB2A62CB82AE900FBB803 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A69AB2A82CB82AE900FBB803 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A69AB2AA2CB82AE900FBB803 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A69AB2AA2CB82AE900FBB803 /* RecipesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesViewController.swift; sourceTree = "<group>"; };
 		A69AB2AF2CB82AED00FBB803 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A69AB2B22CB82AED00FBB803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A69AB2B42CB82AED00FBB803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +54,11 @@
 		A69AB2C32CB82AED00FBB803 /* fetchipiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fetchipiesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A69AB2C72CB82AED00FBB803 /* fetchipiesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fetchipiesUITests.swift; sourceTree = "<group>"; };
 		A69AB2C92CB82AED00FBB803 /* fetchipiesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fetchipiesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A69AB2D92CBD7CC700FBB803 /* RecipesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesViewModel.swift; sourceTree = "<group>"; };
+		A69AB2DE2CBD7DCA00FBB803 /* RecipeState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeState.swift; sourceTree = "<group>"; };
+		A69AB2E12CBD7E5800FBB803 /* ProtocolDefinitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolDefinitions.swift; sourceTree = "<group>"; };
+		A69AB2E42CBD7EA100FBB803 /* ResponseBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseBody.swift; sourceTree = "<group>"; };
+		A69AB2E62CBD81B400FBB803 /* APIProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A69AB2EC2CBD846D00FBB803 /* Moya in Frameworks */,
+				A69AB2EE2CBD846D00FBB803 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +95,7 @@
 				A69AB2BC2CB82AED00FBB803 /* fetchipiesTests */,
 				A69AB2C62CB82AED00FBB803 /* fetchipiesUITests */,
 				A69AB2A42CB82AE900FBB803 /* Products */,
+				A69AB2EA2CBD846D00FBB803 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +112,10 @@
 		A69AB2A52CB82AE900FBB803 /* fetchipies */ = {
 			isa = PBXGroup;
 			children = (
+				A69AB2D62CBD7CAE00FBB803 /* UI */,
+				A69AB2DB2CBD7D2800FBB803 /* Domain */,
 				A69AB2A62CB82AE900FBB803 /* AppDelegate.swift */,
 				A69AB2A82CB82AE900FBB803 /* SceneDelegate.swift */,
-				A69AB2AA2CB82AE900FBB803 /* ViewController.swift */,
 				A69AB2AF2CB82AED00FBB803 /* Assets.xcassets */,
 				A69AB2B12CB82AED00FBB803 /* LaunchScreen.storyboard */,
 				A69AB2B42CB82AED00FBB803 /* Info.plist */,
@@ -124,6 +140,81 @@
 			path = fetchipiesUITests;
 			sourceTree = "<group>";
 		};
+		A69AB2D62CBD7CAE00FBB803 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A69AB2D82CBD7CB500FBB803 /* ViewModels */,
+				A69AB2D72CBD7CB100FBB803 /* ViewControllers */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		A69AB2D72CBD7CB100FBB803 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A69AB2AA2CB82AE900FBB803 /* RecipesViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A69AB2D82CBD7CB500FBB803 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A69AB2D92CBD7CC700FBB803 /* RecipesViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A69AB2DB2CBD7D2800FBB803 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				A69AB2E32CBD7E9900FBB803 /* Networking */,
+				A69AB2DC2CBD7DAD00FBB803 /* Services */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		A69AB2DC2CBD7DAD00FBB803 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A69AB2E02CBD7E5000FBB803 /* Extensions */,
+				A69AB2DD2CBD7DAF00FBB803 /* StateService */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A69AB2DD2CBD7DAF00FBB803 /* StateService */ = {
+			isa = PBXGroup;
+			children = (
+				A69AB2DE2CBD7DCA00FBB803 /* RecipeState.swift */,
+			);
+			path = StateService;
+			sourceTree = "<group>";
+		};
+		A69AB2E02CBD7E5000FBB803 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A69AB2E12CBD7E5800FBB803 /* ProtocolDefinitions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A69AB2E32CBD7E9900FBB803 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				A69AB2E42CBD7EA100FBB803 /* ResponseBody.swift */,
+				A69AB2E62CBD81B400FBB803 /* APIProvider.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		A69AB2EA2CBD846D00FBB803 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,6 +231,10 @@
 			dependencies = (
 			);
 			name = fetchipies;
+			packageProductDependencies = (
+				A69AB2EB2CBD846D00FBB803 /* Moya */,
+				A69AB2ED2CBD846D00FBB803 /* SnapKit */,
+			);
 			productName = fetchipies;
 			productReference = A69AB2A32CB82AE900FBB803 /* fetchipies.app */;
 			productType = "com.apple.product-type.application";
@@ -203,7 +298,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A69AB29E2CB82AE900FBB803 /* Build configuration list for PBXProject "fetchipies" */;
+			buildConfigurationList = A69AB29E2CB82AE900FBB803 /* Build configuration list for PBXProject "fetchipes" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -212,6 +307,10 @@
 				Base,
 			);
 			mainGroup = A69AB29A2CB82AE900FBB803;
+			packageReferences = (
+				A69AB2E82CBD826900FBB803 /* XCRemoteSwiftPackageReference "Moya" */,
+				A69AB2E92CBD843300FBB803 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = A69AB2A42CB82AE900FBB803 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -254,7 +353,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A69AB2AB2CB82AE900FBB803 /* ViewController.swift in Sources */,
+				A69AB2E52CBD7EA100FBB803 /* ResponseBody.swift in Sources */,
+				A69AB2E72CBD81B400FBB803 /* APIProvider.swift in Sources */,
+				A69AB2E22CBD7E5800FBB803 /* ProtocolDefinitions.swift in Sources */,
+				A69AB2DA2CBD7CC700FBB803 /* RecipesViewModel.swift in Sources */,
+				A69AB2DF2CBD7DCA00FBB803 /* RecipeState.swift in Sources */,
+				A69AB2AB2CB82AE900FBB803 /* RecipesViewController.swift in Sources */,
 				A69AB2A72CB82AE900FBB803 /* AppDelegate.swift in Sources */,
 				A69AB2A92CB82AE900FBB803 /* SceneDelegate.swift in Sources */,
 			);
@@ -442,7 +546,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nick.fetchipies;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nick.fetchipes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -469,7 +573,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nick.fetchipies;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nick.fetchipes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -556,7 +660,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A69AB29E2CB82AE900FBB803 /* Build configuration list for PBXProject "fetchipies" */ = {
+		A69AB29E2CB82AE900FBB803 /* Build configuration list for PBXProject "fetchipes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A69AB2CB2CB82AED00FBB803 /* Debug */,
@@ -593,6 +697,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A69AB2E82CBD826900FBB803 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.3;
+			};
+		};
+		A69AB2E92CBD843300FBB803 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A69AB2EB2CBD846D00FBB803 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A69AB2E82CBD826900FBB803 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		A69AB2ED2CBD846D00FBB803 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A69AB2E92CBD843300FBB803 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A69AB29B2CB82AE900FBB803 /* Project object */;
 }

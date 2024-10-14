@@ -7,6 +7,10 @@ class RecipeCell: UICollectionViewCell {
             recipe.name
         }
         private let recipe: RemoteRecipe
+        
+        init(_ recipe: RemoteRecipe) {
+            self.recipe = recipe
+        }
     }
     
     private(set) lazy var nameLabel: UILabel = {

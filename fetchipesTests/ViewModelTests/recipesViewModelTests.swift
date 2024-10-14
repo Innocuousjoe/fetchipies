@@ -7,7 +7,8 @@ final class recipesViewModelTests: XCTestCase {
         let viewModel = RecipesViewModel(MockRecipeState())
         
         var didCallAPI: Bool = false
-        viewModel.onSnapshotUpdate = {
+        viewModel.onSnapshotUpdate = { snapshot in
+            XCTAssert(snapshot.sectionIdentifiers.count == 1)
             didCallAPI = true
         }
         

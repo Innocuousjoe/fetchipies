@@ -9,8 +9,8 @@ class RecipeState: RecipeStateProtocol {
             switch result {
             case .success(let response):
                 do {
-                    let recipes = try response.map(RemoteRecipeList.self)
-                    print(recipes)
+                    let recipeList = try response.map(RemoteRecipeList.self)
+                    completion(.success(recipeList.recipes))
                 } catch {
                     print(error)
                 }

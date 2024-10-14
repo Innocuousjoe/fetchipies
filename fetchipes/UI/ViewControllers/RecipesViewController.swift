@@ -49,6 +49,9 @@ class RecipesViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        viewModel.onSnapshotUpdate = { [weak self] snapshot in
+            self?.dataSource.apply(snapshot)
+        }
         
         viewModel.viewDidLoad()
     }
@@ -58,7 +61,7 @@ class RecipesViewController: UIViewController {
     private func layout(for section: RecipesViewModel.Section) -> NSCollectionLayoutSection {
         switch section {
         case .region:
-            let size = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1), heightDimension: .estimated(200))
+            let size = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1), heightDimension: .estimated(50))
             let item = NSCollectionLayoutItem(layoutSize: size)
             let group = NSCollectionLayoutGroup.horizontal(layoutSize: size, subitems: [item])
             let section = NSCollectionLayoutSection(group: group)

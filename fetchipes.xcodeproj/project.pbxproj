@@ -22,6 +22,8 @@
 		A69AB2EE2CBD846D00FBB803 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = A69AB2ED2CBD846D00FBB803 /* SnapKit */; };
 		A69AB2F12CBDA34100FBB803 /* MockState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69AB2F02CBDA34100FBB803 /* MockState.swift */; };
 		A69AB2F52CBDA42000FBB803 /* recipesViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69AB2F42CBDA42000FBB803 /* recipesViewModelTests.swift */; };
+		A69AB2F82CBDAFD500FBB803 /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69AB2F72CBDAFD500FBB803 /* RecipeCell.swift */; };
+		A69AB2FB2CBDB07800FBB803 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69AB2FA2CBDB07800FBB803 /* UIView+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		A69AB2E62CBD81B400FBB803 /* APIProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIProvider.swift; sourceTree = "<group>"; };
 		A69AB2F02CBDA34100FBB803 /* MockState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockState.swift; sourceTree = "<group>"; };
 		A69AB2F42CBDA42000FBB803 /* recipesViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recipesViewModelTests.swift; sourceTree = "<group>"; };
+		A69AB2F72CBDAFD500FBB803 /* RecipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
+		A69AB2FA2CBDB07800FBB803 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,7 @@
 		A69AB2D62CBD7CAE00FBB803 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				A69AB2F62CBDAFCB00FBB803 /* Cells */,
 				A69AB2D82CBD7CB500FBB803 /* ViewModels */,
 				A69AB2D72CBD7CB100FBB803 /* ViewControllers */,
 			);
@@ -144,6 +149,7 @@
 		A69AB2DB2CBD7D2800FBB803 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				A69AB2E02CBD7E5000FBB803 /* Extensions */,
 				A69AB2E32CBD7E9900FBB803 /* Networking */,
 				A69AB2DC2CBD7DAD00FBB803 /* Services */,
 			);
@@ -153,7 +159,6 @@
 		A69AB2DC2CBD7DAD00FBB803 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				A69AB2E02CBD7E5000FBB803 /* Extensions */,
 				A69AB2DD2CBD7DAF00FBB803 /* StateService */,
 			);
 			path = Services;
@@ -171,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				A69AB2E12CBD7E5800FBB803 /* ProtocolDefinitions.swift */,
+				A69AB2FA2CBDB07800FBB803 /* UIView+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -205,6 +211,14 @@
 				A69AB2F42CBDA42000FBB803 /* recipesViewModelTests.swift */,
 			);
 			path = ViewModelTests;
+			sourceTree = "<group>";
+		};
+		A69AB2F62CBDAFCB00FBB803 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A69AB2F72CBDAFD500FBB803 /* RecipeCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,7 +331,9 @@
 			files = (
 				A69AB2E52CBD7EA100FBB803 /* ResponseBody.swift in Sources */,
 				A69AB2E72CBD81B400FBB803 /* APIProvider.swift in Sources */,
+				A69AB2FB2CBDB07800FBB803 /* UIView+Extensions.swift in Sources */,
 				A69AB2E22CBD7E5800FBB803 /* ProtocolDefinitions.swift in Sources */,
+				A69AB2F82CBDAFD500FBB803 /* RecipeCell.swift in Sources */,
 				A69AB2DA2CBD7CC700FBB803 /* RecipesViewModel.swift in Sources */,
 				A69AB2DF2CBD7DCA00FBB803 /* RecipeState.swift in Sources */,
 				A69AB2AB2CB82AE900FBB803 /* RecipesViewController.swift in Sources */,

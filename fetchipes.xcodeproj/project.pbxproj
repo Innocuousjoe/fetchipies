@@ -13,8 +13,6 @@
 		A69AB2B02CB82AED00FBB803 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A69AB2AF2CB82AED00FBB803 /* Assets.xcassets */; };
 		A69AB2B32CB82AED00FBB803 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A69AB2B12CB82AED00FBB803 /* LaunchScreen.storyboard */; };
 		A69AB2BE2CB82AED00FBB803 /* fetchipiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69AB2BD2CB82AED00FBB803 /* fetchipiesTests.swift */; };
-		A69AB2C82CB82AED00FBB803 /* fetchipiesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69AB2C72CB82AED00FBB803 /* fetchipiesUITests.swift */; };
-		A69AB2CA2CB82AED00FBB803 /* fetchipiesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69AB2C92CB82AED00FBB803 /* fetchipiesUITestsLaunchTests.swift */; };
 		A69AB2DA2CBD7CC700FBB803 /* RecipesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69AB2D92CBD7CC700FBB803 /* RecipesViewModel.swift */; };
 		A69AB2DF2CBD7DCA00FBB803 /* RecipeState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69AB2DE2CBD7DCA00FBB803 /* RecipeState.swift */; };
 		A69AB2E22CBD7E5800FBB803 /* ProtocolDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69AB2E12CBD7E5800FBB803 /* ProtocolDefinitions.swift */; };
@@ -32,28 +30,18 @@
 			remoteGlobalIDString = A69AB2A22CB82AE900FBB803;
 			remoteInfo = fetchipies;
 		};
-		A69AB2C42CB82AED00FBB803 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A69AB29B2CB82AE900FBB803 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A69AB2A22CB82AE900FBB803;
-			remoteInfo = fetchipies;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A69AB2A32CB82AE900FBB803 /* fetchipies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fetchipies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A69AB2A32CB82AE900FBB803 /* fetchipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fetchipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A69AB2A62CB82AE900FBB803 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A69AB2A82CB82AE900FBB803 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A69AB2AA2CB82AE900FBB803 /* RecipesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesViewController.swift; sourceTree = "<group>"; };
 		A69AB2AF2CB82AED00FBB803 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A69AB2B22CB82AED00FBB803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A69AB2B42CB82AED00FBB803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A69AB2B92CB82AED00FBB803 /* fetchipiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fetchipiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A69AB2B92CB82AED00FBB803 /* fetchipesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fetchipesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A69AB2BD2CB82AED00FBB803 /* fetchipiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fetchipiesTests.swift; sourceTree = "<group>"; };
-		A69AB2C32CB82AED00FBB803 /* fetchipiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fetchipiesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A69AB2C72CB82AED00FBB803 /* fetchipiesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fetchipiesUITests.swift; sourceTree = "<group>"; };
-		A69AB2C92CB82AED00FBB803 /* fetchipiesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fetchipiesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A69AB2D92CBD7CC700FBB803 /* RecipesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesViewModel.swift; sourceTree = "<group>"; };
 		A69AB2DE2CBD7DCA00FBB803 /* RecipeState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeState.swift; sourceTree = "<group>"; };
 		A69AB2E12CBD7E5800FBB803 /* ProtocolDefinitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolDefinitions.swift; sourceTree = "<group>"; };
@@ -78,22 +66,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A69AB2C02CB82AED00FBB803 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		A69AB29A2CB82AE900FBB803 = {
 			isa = PBXGroup;
 			children = (
-				A69AB2A52CB82AE900FBB803 /* fetchipies */,
-				A69AB2BC2CB82AED00FBB803 /* fetchipiesTests */,
-				A69AB2C62CB82AED00FBB803 /* fetchipiesUITests */,
+				A69AB2A52CB82AE900FBB803 /* fetchipes */,
+				A69AB2BC2CB82AED00FBB803 /* fetchipesTests */,
 				A69AB2A42CB82AE900FBB803 /* Products */,
 				A69AB2EA2CBD846D00FBB803 /* Frameworks */,
 			);
@@ -102,14 +82,13 @@
 		A69AB2A42CB82AE900FBB803 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A69AB2A32CB82AE900FBB803 /* fetchipies.app */,
-				A69AB2B92CB82AED00FBB803 /* fetchipiesTests.xctest */,
-				A69AB2C32CB82AED00FBB803 /* fetchipiesUITests.xctest */,
+				A69AB2A32CB82AE900FBB803 /* fetchipes.app */,
+				A69AB2B92CB82AED00FBB803 /* fetchipesTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A69AB2A52CB82AE900FBB803 /* fetchipies */ = {
+		A69AB2A52CB82AE900FBB803 /* fetchipes */ = {
 			isa = PBXGroup;
 			children = (
 				A69AB2D62CBD7CAE00FBB803 /* UI */,
@@ -120,24 +99,15 @@
 				A69AB2B12CB82AED00FBB803 /* LaunchScreen.storyboard */,
 				A69AB2B42CB82AED00FBB803 /* Info.plist */,
 			);
-			path = fetchipies;
+			path = fetchipes;
 			sourceTree = "<group>";
 		};
-		A69AB2BC2CB82AED00FBB803 /* fetchipiesTests */ = {
+		A69AB2BC2CB82AED00FBB803 /* fetchipesTests */ = {
 			isa = PBXGroup;
 			children = (
 				A69AB2BD2CB82AED00FBB803 /* fetchipiesTests.swift */,
 			);
-			path = fetchipiesTests;
-			sourceTree = "<group>";
-		};
-		A69AB2C62CB82AED00FBB803 /* fetchipiesUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A69AB2C72CB82AED00FBB803 /* fetchipiesUITests.swift */,
-				A69AB2C92CB82AED00FBB803 /* fetchipiesUITestsLaunchTests.swift */,
-			);
-			path = fetchipiesUITests;
+			path = fetchipesTests;
 			sourceTree = "<group>";
 		};
 		A69AB2D62CBD7CAE00FBB803 /* UI */ = {
@@ -218,9 +188,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A69AB2A22CB82AE900FBB803 /* fetchipies */ = {
+		A69AB2A22CB82AE900FBB803 /* fetchipes */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A69AB2CD2CB82AED00FBB803 /* Build configuration list for PBXNativeTarget "fetchipies" */;
+			buildConfigurationList = A69AB2CD2CB82AED00FBB803 /* Build configuration list for PBXNativeTarget "fetchipes" */;
 			buildPhases = (
 				A69AB29F2CB82AE900FBB803 /* Sources */,
 				A69AB2A02CB82AE900FBB803 /* Frameworks */,
@@ -230,18 +200,18 @@
 			);
 			dependencies = (
 			);
-			name = fetchipies;
+			name = fetchipes;
 			packageProductDependencies = (
 				A69AB2EB2CBD846D00FBB803 /* Moya */,
 				A69AB2ED2CBD846D00FBB803 /* SnapKit */,
 			);
 			productName = fetchipies;
-			productReference = A69AB2A32CB82AE900FBB803 /* fetchipies.app */;
+			productReference = A69AB2A32CB82AE900FBB803 /* fetchipes.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A69AB2B82CB82AED00FBB803 /* fetchipiesTests */ = {
+		A69AB2B82CB82AED00FBB803 /* fetchipesTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A69AB2D02CB82AED00FBB803 /* Build configuration list for PBXNativeTarget "fetchipiesTests" */;
+			buildConfigurationList = A69AB2D02CB82AED00FBB803 /* Build configuration list for PBXNativeTarget "fetchipesTests" */;
 			buildPhases = (
 				A69AB2B52CB82AED00FBB803 /* Sources */,
 				A69AB2B62CB82AED00FBB803 /* Frameworks */,
@@ -252,28 +222,10 @@
 			dependencies = (
 				A69AB2BB2CB82AED00FBB803 /* PBXTargetDependency */,
 			);
-			name = fetchipiesTests;
+			name = fetchipesTests;
 			productName = fetchipiesTests;
-			productReference = A69AB2B92CB82AED00FBB803 /* fetchipiesTests.xctest */;
+			productReference = A69AB2B92CB82AED00FBB803 /* fetchipesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		A69AB2C22CB82AED00FBB803 /* fetchipiesUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A69AB2D32CB82AED00FBB803 /* Build configuration list for PBXNativeTarget "fetchipiesUITests" */;
-			buildPhases = (
-				A69AB2BF2CB82AED00FBB803 /* Sources */,
-				A69AB2C02CB82AED00FBB803 /* Frameworks */,
-				A69AB2C12CB82AED00FBB803 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A69AB2C52CB82AED00FBB803 /* PBXTargetDependency */,
-			);
-			name = fetchipiesUITests;
-			productName = fetchipiesUITests;
-			productReference = A69AB2C32CB82AED00FBB803 /* fetchipiesUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -289,10 +241,6 @@
 						CreatedOnToolsVersion = 15.0.1;
 					};
 					A69AB2B82CB82AED00FBB803 = {
-						CreatedOnToolsVersion = 15.0.1;
-						TestTargetID = A69AB2A22CB82AE900FBB803;
-					};
-					A69AB2C22CB82AED00FBB803 = {
 						CreatedOnToolsVersion = 15.0.1;
 						TestTargetID = A69AB2A22CB82AE900FBB803;
 					};
@@ -315,9 +263,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A69AB2A22CB82AE900FBB803 /* fetchipies */,
-				A69AB2B82CB82AED00FBB803 /* fetchipiesTests */,
-				A69AB2C22CB82AED00FBB803 /* fetchipiesUITests */,
+				A69AB2A22CB82AE900FBB803 /* fetchipes */,
+				A69AB2B82CB82AED00FBB803 /* fetchipesTests */,
 			);
 		};
 /* End PBXProject section */
@@ -333,13 +280,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A69AB2B72CB82AED00FBB803 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A69AB2C12CB82AED00FBB803 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -372,27 +312,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A69AB2BF2CB82AED00FBB803 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A69AB2CA2CB82AED00FBB803 /* fetchipiesUITestsLaunchTests.swift in Sources */,
-				A69AB2C82CB82AED00FBB803 /* fetchipiesUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		A69AB2BB2CB82AED00FBB803 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A69AB2A22CB82AE900FBB803 /* fetchipies */;
+			target = A69AB2A22CB82AE900FBB803 /* fetchipes */;
 			targetProxy = A69AB2BA2CB82AED00FBB803 /* PBXContainerItemProxy */;
-		};
-		A69AB2C52CB82AED00FBB803 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A69AB2A22CB82AE900FBB803 /* fetchipies */;
-			targetProxy = A69AB2C42CB82AED00FBB803 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -536,7 +462,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G6SE7832JT;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = fetchipies/Info.plist;
+				INFOPLIST_FILE = fetchipes/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -563,7 +489,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G6SE7832JT;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = fetchipies/Info.plist;
+				INFOPLIST_FILE = fetchipes/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -592,12 +518,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nick.fetchipiesTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nick.fetchipesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fetchipies.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fetchipies";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fetchipes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fetchipes";
 			};
 			name = Debug;
 		};
@@ -612,48 +538,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nick.fetchipiesTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nick.fetchipesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fetchipies.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fetchipies";
-			};
-			name = Release;
-		};
-		A69AB2D42CB82AED00FBB803 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = G6SE7832JT;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nick.fetchipiesUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = fetchipies;
-			};
-			name = Debug;
-		};
-		A69AB2D52CB82AED00FBB803 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = G6SE7832JT;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nick.fetchipiesUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = fetchipies;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fetchipes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fetchipes";
 			};
 			name = Release;
 		};
@@ -669,7 +559,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A69AB2CD2CB82AED00FBB803 /* Build configuration list for PBXNativeTarget "fetchipies" */ = {
+		A69AB2CD2CB82AED00FBB803 /* Build configuration list for PBXNativeTarget "fetchipes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A69AB2CE2CB82AED00FBB803 /* Debug */,
@@ -678,20 +568,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A69AB2D02CB82AED00FBB803 /* Build configuration list for PBXNativeTarget "fetchipiesTests" */ = {
+		A69AB2D02CB82AED00FBB803 /* Build configuration list for PBXNativeTarget "fetchipesTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A69AB2D12CB82AED00FBB803 /* Debug */,
 				A69AB2D22CB82AED00FBB803 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A69AB2D32CB82AED00FBB803 /* Build configuration list for PBXNativeTarget "fetchipiesUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A69AB2D42CB82AED00FBB803 /* Debug */,
-				A69AB2D52CB82AED00FBB803 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

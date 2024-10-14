@@ -4,7 +4,7 @@ import Moya
 typealias APIProvider = MoyaProvider<API>
 
 enum API {
-    case getTaskList
+    case getRecipes
 }
 
 extension API: TargetType {
@@ -14,32 +14,28 @@ extension API: TargetType {
     
     var baseURL: URL {
         switch self {
-        case .getTaskList:
-            return URL(string: "https://jsonplaceholder.typicode.com")!
+        case .getRecipes:
+            return URL(string: "https://d3jbb8n5wk0qxi.cloudfront.net")!
         }
     }
     
     var path: String {
         switch self {
-        case .getTaskList:
-            return "todos"
+        case .getRecipes:
+            return "recipes.json"
         }
     }
     
     var method: Moya.Method {
         switch self {
-        case .getTaskList:
+        case .getRecipes:
             return .get
         }
     }
     
-    var sampleData: Data {
-        return Data()
-    }
-    
     var task: Task {
         switch self {
-        case .getTaskList:
+        case .getRecipes:
             return .requestPlain
         }
     }
